@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        
+    <div class="main-activity">
+
+        <div id="img">
+            <img src="../assets/img/covid-prev1.jpg" alt="covid-prev" width="290" height="160">
+        </div>
+
+        <h1>Controle de Fluxo de Clientes</h1>
+        
+        <div class="inpLimite">
+            <p>Limite: <input type="number" name="" id="limite"></p>
+        </div>
+
+        <div class="clienteNum">
+                <p>Clientes Atuais</p> <p id="clienteAtual">0</p>
+
+        </div>
+       
+        <div class="btns">
+            <button id="entrada" onclick="entrar()">Entrada de Cliente</button>
+                <br>
+            <button id="saida" onclick="sair()">Saída de Cliente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
